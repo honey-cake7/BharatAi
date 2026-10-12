@@ -1,0 +1,11 @@
+﻿{
+  "timestamp": "2026-10-12T16:20:00Z",
+  "component_type": "Printed_Circuit_Board",
+  "anomaly_score": 0.88,
+  "threshold": 0.50,
+  "defect_characteristics": {
+    "category": "logical_misplacement",
+    "bounding_box": [124, 45, 60, 42],
+    "affected_area_pct": 3.8
+  }
+}
