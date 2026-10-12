@@ -10,8 +10,8 @@ def main():
     export_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../models"))
     os.makedirs(export_dir, exist_ok=True)
 
-    datamodule = MVTecAD(root=data_dir, category="metal_nut", image_size=(256, 256))
-    model = EfficientAd(model_size="M")
+    datamodule = MVTecAD(root=data_dir, category="metal_nut", train_batch_size=1, eval_batch_size=1)
+    model = EfficientAd(model_size="medium")
     engine = Engine(max_epochs=70)
 
     engine.fit(model=model, datamodule=datamodule)
