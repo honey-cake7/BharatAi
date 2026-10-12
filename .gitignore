@@ -1,6 +1,7 @@
 ﻿__pycache__/
 *.pyc
 .venv/
+venv/
 *.onnx
 *.engine
 *.pte
@@ -8,3 +9,4 @@ vision_engine/data/*
 vision_engine/models/*
 advisory_engine/models/*
 advisory_engine/executorch_build/*
+shared/*.jsonl
