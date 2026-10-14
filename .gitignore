@@ -11,3 +11,4 @@ vision_engine/models/*
 advisory_engine/models/*
 advisory_engine/executorch_build/*
 shared/*.jsonl
+vision_engine/results/
